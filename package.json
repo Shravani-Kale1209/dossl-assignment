@@ -1,0 +1,18 @@
+{
+  "name": "student-task-manager",
+  "version": "1.0.0",
+  "description": "Student Task Manager for Jenkins build automation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "student",
+    "task-manager",
+    "jenkins",
+    "devops"
+  ],
+  "author": "Student",
+  "license": "ISC"
+}
