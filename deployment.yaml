@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: task-manager-container
-          image: task-manager:1.0
+          image: student-task-manager:1.0
           imagePullPolicy: Never
 
           ports:
