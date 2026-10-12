@@ -7,7 +7,7 @@
     "start": "node app.js",
     "build": "node build.js",
     "test": "node test.js"
-},
+  },
   "keywords": [
     "student",
     "task-manager",
@@ -15,5 +15,8 @@
     "devops"
   ],
   "author": "Student",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@prometheus-io/client": "^0.16.1"
+  }
 }

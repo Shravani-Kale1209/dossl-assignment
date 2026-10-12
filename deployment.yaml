@@ -23,4 +23,19 @@ spec:
           imagePullPolicy: Never
 
           ports:
-            - containerPort: 3000
+            - name: http
+              containerPort: 3000
+              protocol: TCP
+
+          readinessProbe:
+            httpGet:
+              path: /metrics
+              port: http
+            periodSeconds: 5
+
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10

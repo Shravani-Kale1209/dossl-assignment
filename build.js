@@ -8,6 +8,7 @@ const requiredFiles = [
     "public/style.css",
     "public/script.js",
     "app.js",
+    "metrics.js",
     "build.js",
     "package.json"
 ];
